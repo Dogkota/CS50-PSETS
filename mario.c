@@ -7,7 +7,7 @@ int main(void)
     do
     {    
         n = get_int("Height: ");
-    } while (n < 0 || n > 23);    // pyramid height must be between 0 and 23
+    } while (n < 0 || n > 8);    // pyramid height must be between 0 and 8
     
     for (int i = 0; i < n; i++)    // iterate over loop n times
     {
